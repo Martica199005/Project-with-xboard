@@ -63,14 +63,14 @@ there have been problems because of him in the past:
 1. ! sigint - Xboard sends out interrupt signals from different
 reasons that may affect your engine. We recommend it
 deactivate using “sigint = 0”.
-2. san - example: “breast = 0” or “breast = 1”. If the breast is 0 then
+2. san - example: “san = 0” or “san = 1”. If the san is 0 then
 you will receive the moves in the “e2e4” format which means that
 the move made is “move the part that is in field e2 to
-field e4 ”. If the breast is 1 then you will get the moves in
+field e4 ”. If the san is 1 then you will get the moves in
 the “Nf3” format which translates into move Knight to f3. This one
 The latter option comes with an added complexity in the case
 which, for example, there are two horses that can get on the same
-cottage. Our recommendation is to send "breast" to each
+cottage. Our recommendation is to send "san" to each
 date to make sure you get the moves in the format you want
 you and set it to 0 for ease.
 3. name - send this feature if you want to name your engine
@@ -94,7 +94,7 @@ move with the party that is moving at that time.
 ■ resign - you send this order if / when you want to transfer the game.
 
 ■ move - send this command when you want to move. The format will
-be specified by that “breast” feature. Example: “move e2e4”.
+be specified by that “san” feature. Example: “move e2e4”.
 
 The program will also need to receive moves from XBoard and send
 legal movements. There is no need for this stage to send any legal move
