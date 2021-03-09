@@ -63,7 +63,7 @@ there have been problems because of him in the past:
 1. ! sigint - Xboard sends out interrupt signals from different
 reasons that may affect your engine. We recommend it
 deactivate using “sigint = 0”.
-2. breast - example: “breast = 0” or “breast = 1”. If the breast is 0 then
+2. san - example: “breast = 0” or “breast = 1”. If the breast is 0 then
 you will receive the moves in the “e2e4” format which means that
 the move made is “move the part that is in field e2 to
 field e4 ”. If the breast is 1 then you will get the moves in
