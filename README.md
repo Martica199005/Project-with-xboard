@@ -1,6 +1,6 @@
 # Prokect-with-xboard
 
-For the project The XBoard platform will be used to interface, view, and record
+For the project The XBoard platform will be used to interface, view,register and 
 play the games played between the applications made in the project.
 The archive will contain:
 
